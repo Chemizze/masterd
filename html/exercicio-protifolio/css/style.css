@@ -7,3 +7,15 @@ body{
 p{
     padding: 5px;
 }
+li{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 4px;
+}
+a:hover{
+    color: blue;
+}
