@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Construções, LDA</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img src="#" alt="logo da empresa">
+        <img src="imagem/logo.png" alt="logo da empresa">
         <nav>
             <ul>
                 <li><a href="sobre.html">Sobre Nós</a></li>
@@ -21,7 +22,7 @@
     <main>
         <section>
             <h1>Um novo jeito de gerir, a Confiança para Sempre</h1>
-            <img src="#" alt="Satisfação do cliente">
+            <img src="imagem/familia.jpg" alt="Satisfação do cliente" width="450px">
             <h2>Linha de Financiamento para obras</h2>
             <p>Facilitamos melhorias no condominio com soluções de crédito sob medida.</p>
             <h2>Manuntenção Preventiva</h2>
@@ -30,14 +31,14 @@
             <p>Equipa técnica disponivel 24h para emergências no seu condominio</p>
         </section>
         <section>
-            <a href="sobre.html">Quem Somos</a>
+            <a href="sobre.html" class="extra">Quem Somos</a>
             <h1>Uma combinação de Profissionalismo, Experiencia e Dedicação</h1>
             <h2>Missão</h2>
             <p>Prestar serviços de gestão de condominios de excelência, com transparências, proximidade e profissionalismo.</p>
             <h2>Visão</h2>
             <p>Ser reconhecida como uma referência na gentão de condominios, destacando-se pela qualidade, proximidade no atendimento e soluções atuais.</p>
-            <img src="#" alt="Aperto de mãos">
-            <a href="instalações.html">Nossas Instalações</a>
+            <img src="imagem/aperto-de-mão.jpg" alt="Aperto de mãos" width="400px">
+            <a href="instalações.html" id="extraclass=" class="extra">Nossas Instalações</a>
         </section>
         <aside>
             <h2>O que fazemos:</h2>
@@ -48,27 +49,52 @@
                 <li>Apoio Juridico;</li>
                 <li>Linha de Emergência 24H.</li>
             </ul>
-            <a href="contacto.html">Contacte-nos</a>
+            <a href="contacto.html" class="extra">Contacte-nos</a>
+            <h3>Alguns dos nossos Trabalhos e Serviços</h3>
+            <table>
+                <thead>
+                    <td>Serviços</td>
+                    <td>Tipo</td>
+                    <td>Descrição</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manuntenção de Condominios</td>
+                        <td>Administração</td>
+                        <td>Gestão completa com limpeza e manutenção</td>
+                    </tr>
+                    <tr>
+                        <td>Reabilitação</td>
+                        <td>Construção</td>
+                        <td>Reparação e pintura exterior do edificio</td>
+                    </tr>
+                    <tr>
+                        <td>Gestão de Pagamentos</td>
+                        <td>Administração</td>
+                        <td>Controlo de quotas e despesas do condominio</td>
+                    </tr>
+                </tbody>
+            </table>
         </aside>
         <article>
             <h3>Se preferir, use o formulário abaixo para entrarmos em contacto, para um possivel orçamento</h3>
             <form action="/submit.php">
-                <label for="nome"> Nome
+                <label for="nome"> Nome: <br>
                     <input type="text" name="Nome" id="nome" required>
                 </label><br>
-                <label for="email">Email
-                    <input type="email" name="Email" id="email" placeholder="exemplo@exemplo" required>
+                <label for="email">Email: <br>
+                    <input type="email" name="Email" id="email" placeholder="exemplo@exemplo.com" required>
                 </label><br>
-                <label for="telefone">Número de Telefone
+                <label for="telefone">Número de Telefone: <br>
                     <input type="tel" name="Telefone" id="telefone" placeholder="*** *** ***" required>
                 </label><br>
-                <label for="endereço">Endereço
+                <label for="endereço">Endereço: <br>
                     <input type="text" name="Endereço" id="endereço" placeholder="Rua, Avenida..." required>
                 </label><br>
-                <label for="mensagem">Mensagem:
-                    <textarea name="mensagem" id="mensagem" maxlength="150"></textarea>
+                <label for="mensagem">Mensagem: <br>
+                    <textarea name="mensagem" id="mensagem" maxlength="80px" ></textarea>
                 </label><br>
-                <input type="submit" value="Submeta">
+                <input type="submit" value="Submeta" id="submeta">
             </form>
         </article>
     </main>
@@ -76,10 +102,10 @@
         <p>Administração de condominios com transparência, aproximidade e excelência.</p>
         <h3>Segue-nos nas nossas redes sociais</h3>
         <nav>
-            <a href="https://pt.linkedin.com/">Linkdin</a>
-            <a href="https://www.facebook.com/">Fabebook</a>
+            <a href="https://pt.linkedin.com/"class="extra">Linkdin</a>
+            <a href="https://www.facebook.com/"class="extra">Fabebook</a>
             <a href="https://www.instagram.com/
-            ">Instagram</a>
+            "class="extra">Instagram</a>
         </nav>
         &copy; 2026 - Construções, LDA
     </footer>
