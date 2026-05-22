@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações</title>
+    <style>
+        body{
+            color: white;
+            animation: degrade 3s linear infinite forwards ;
+        }
+        .animate-text {
+            position: relative;
+            animation: animate 03s ease-out infinite forwards;
+            
+        }
+        @keyframes animate {
+           0% {transform: translate(-30%, 0px);}
+           50% {transform: translate(30%, 300px);}
+            100% {transform: translate(100%,300px);}
+        }
+        @keyframes degrade {
+            from {background: linear-gradient(to right, rgb(156, 156, 156), rgb(74, 178, 189));}
+            to{background: linear-gradient(to right, rgb(186, 184, 184), rgb(87, 87, 154)); color: rgb(203, 203, 203); text-decoration: solid;}
+        }
+    </style>
+</head>
+<body>
+    <div class="animate-text">Olá! Eu sou Jane Doe e sou Web Designer</div>
+</body>
+</html>
