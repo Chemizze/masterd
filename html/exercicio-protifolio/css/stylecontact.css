@@ -44,40 +44,67 @@ main{
     justify-content: center;
     flex-wrap: wrap;
 }
-ol{
-    padding: 15px;
-}
-#clientes{
-    font-size: 1.5em;
-}
 #search, nav a{
     color:rgb(188, 219, 49);
     background-color: rgb(82, 82, 82);
-}
-a{
-    text-decoration: none;
-    color: white;
-    padding: 2.5px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-li{
-    padding: 5px;
-}
-nav a:hover{
-    color: yellow;
-    box-shadow: 1px 1px 1px black;
-    background-color:rgb(153, 153, 153);
-    cursor: pointer;
-}
-#intro{
-    font-family: "oswald";
-    font-size: 1.7em;
 }
 h1, h2, h3,h4{
     font-family: "oswald";
     color: rgb(188, 219, 49);
     font-weight: 500px;
+}
+h1{
+    color: white;
+    font-weight: 200;
+    font-size: 2.5em;
+}
+p{
+    color: white;
+    font-size: 0.8em;
+}
+.caixa{
+    width: 100%;
+}
+#mensagem{
+    resize: none;
+    height: 100px;
+    width: 100%;
+}
+#formulario{
+    padding: 150px;
+}
+article:nth-child(odd), section:nth-child(odd){
+    background-color:rgb(50, 50, 50) ;
+    padding: 10px;
+    border-radius: 2%;
+}
+.button{
+    color: black;
+    background-color: rgb(188, 219, 49);
+    padding: 8px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.button:hover{
+    color:rgb(188, 219, 49);
+    background-color: rgb(82, 82, 82);
+}
+footer li{
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    list-style: none;
+}
+article{
+    margin: 10px;
+}
+article .borda{
+    border: 1px solid rgb(188, 219, 49);
+    padding: 15px;
+    margin: 4px 4px 4px 4px;
+}
+p{
+    padding: 10px;
 }
 .cta{
     background-color:rgb(188, 219, 49);
@@ -90,40 +117,18 @@ h1, h2, h3,h4{
         box-shadow: 1px 1px 1px white;
         color: rgba(0, 0, 0, 0.881);
 }
-p{
-    padding: 10px;
+a{
+    text-decoration: none;
+    color: white;
+    padding: 2.5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-article:nth-child(odd), section:nth-child(odd){
-        background-color:rgb(50, 50, 50) ;
-        padding: 10px;
-        border-radius: 2%;
-}
-article{
-    margin: 10px;
-}
-article .borda{
-    border: 1px solid rgb(188, 219, 49);
-    padding: 15px;
-    margin: 4px 4px 4px 4px;
-}
-footer li{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    text-align: center;
-    list-style: none;
-}
-#clientes{
-    padding: 60px;
-}
-
-#euw{
-    color:rgb(188, 219, 49);
-}
-#saudaçãofinal{
-    margin: 10px;
-    padding: 20px;
-    font-size: 1.2em;
+nav a:hover{
+    color: yellow;
+    box-shadow: 1px 1px 1px black;
+    background-color:rgb(153, 153, 153);
+    cursor: pointer;
 }
 #rodapé{
     display: flex;
@@ -131,7 +136,3 @@ footer li{
     justify-content: center;
     align-items: center;
 }
-#saudação{
-    display: flex;
-}
-
