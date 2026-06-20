@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <style>
+        h1{
+            color: white;
+            font-weight: 200;
+            font-size: 2.5em;
+        }
+        p{
+            color: white;
+            font-size: 0.8em;
+        }
+        .caixa{
+            width: 100%;
+        }
+        #mensagem{
+            resize: none;
+            height: 100px;
+            width: 100%;
+        }
+    </style>
+    
+</head>
+<body>
+    <header id="cabeçalho">
+        <a href="index.html"><img src="../imagens/logo.png" alt="Logo do site" width="140px">
+        <nav id="ligações"></a>
+            <ul id="menu"> 
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="sobre.html" target="_blank">Sobre</a></li>
+                <li><a href="projetos.hmtl" target="_blank">Projetos</a></li>
+                <li><a href="serviços.html" target="_blank">Serviços</a></li>
+                <li><a href="pesquisa.html" target="_blank">Pesquisa</a></li>
+                <li><a href="contacto.html" target="_blank">Contactos</a></li>
+                <button id="search"><span class="material-symbols-outlined">
+                    search
+                </span></button>
+            </ul>
+        </nav>    
+    </header>
+    <main>
+        <article>
+            <h1>Contacta-me</h1>
+            <p class="borda">Estou aqui para ajuda-lo. Entre em contacto comigo através do formulário de contacto ou pelos meus canis de comunicação</p>
+            <button class="button">Formulário de contacto</button>
+            <a id="euw">Envie um whatsapp</a>
+        </article>
+        <article>
+            <h1>Fale comigo</h1>
+            <div class="borda">
+                <h2>Telefone</h2>
+                <p>Liga-me para ter suporte imediato</p>
+            </div>
+            <div class="borda">
+                <h2>E-mail</h2>
+                <p>Envie e-mail com as suas questões</p>
+            </div>
+            <div class="borda">
+                <h2>Redes Sociais</h2>
+                <p>Siga-me nas minhas redes sociais para manter informado</p>
+            </div> 
+        </article>
+        <article>
+        <fomr action="/submit.php" id="formulario">
+                <label for="nome"><h3>Nome</h3>
+                    <input type="text" name="nome" id="nome"class="caixa" placeholder="Jone Doe">
+                </label>
+                <label for="telefone"><h3>Telefone</h3>
+                    <input type="number" name="telefone" id="telefone" class="caixa" placeholder="*** *** ***">
+                </label>
+                <label for="e-mail"><h3>E-mail</h3>
+                    <input type="email" name="e-mail" id="e-mail" class="caixa" placeholder="exemplo@gmail.com">
+                </label>
+                <label for="mensagem"><h3>Mensagem</h3>
+                    <textarea name="mensagem" id="mensagem"
+                    placeholder="Escreve algo que pode ser necessário eu saber"></textarea>
+                </label>
+                <button type="submit" class="button">Enviar</button><br>
+            </form>
+            <img src="../imagens/front-end.png" alt="">
+        </article>
+        <article id="saudaçãofinal" id="last">
+            <h3>Obrigada por me visitar!</h3>
+            <h4>Pronto para começar?</h4>
+            <p class="borda">Vamos transformar a sua idea em realidade. Entre em <a href="contacto.html">contacto</a> agora mesmo</p>
+            <h4>Explore o meu portfolio</h4>
+            <p class="borda">Confire <a href="projeto.html">exemplos</a> do meu trabalho e veja como posso ajudá-lo</p>
+            <h4>Conect-se comigo</h4>
+            <p class="borda"><a href="contacto.html">Siga-me</a> nas redes sociais para ficar por dentro das novidades</p>
+        </article>
+    </main>
+    <footer>
+        <h2>Jane Doe Portfolio</h2>
+        <nav>
+            <ul>
+                <li><a href="sobre.html" target="_blank">Sobre</a></li>
+                <li><a href="projeto.html" target="_blank">Projetos</a></li>
+                <li><a href="serviços.html" target="_blank">Serviços</a></li>
+                <li><a href="contacto.html" target="_blank">Serviços</a></li>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            </ul> 
+        </nav>
+        <img src="../imagens/logo.png" alt="Logo do site" width="100px">
+        <p>&copy; 2024 Jane Doe</p>
+        <a href="privacidade.html" target="_blank">Politica de privacidade</a>
+        <a href="termo.html" target="_blank">Termos de uso</
+    </footer>
+</body>
+</html>

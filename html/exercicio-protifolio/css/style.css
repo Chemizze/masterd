@@ -1,30 +1,35 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;;
     box-sizing: border-box;
+    
 }
 body{
     background-color: rgb(82, 82, 82);
     color: white;
     font-size: 1em;
     font-family: "Space Grotesk" ;
-    padding: 40px;
+    padding: 10px;
     padding-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content:center ;
 }
-
+#cabeçalho{
+    border-bottom: 1px solid rgb(188, 219, 49);
+    flex-direction: row;
+    justify-content: flex-start;
+}
 ul#menu{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
 }
 #search, nav a{
     color:rgb(188, 219, 49);
@@ -70,19 +75,41 @@ p{
     padding: 10px;
 }
 article:nth-child(odd), section:nth-child(odd){
-        background-color: rgb(34, 32, 32);
-        padding: 20px;
+        background-color:rgb(50, 50, 50) ;
+        padding: 10px;
         width: 95%;
         border-radius: 2%;
 }
 article{
     margin: 10px;
-    padding: 400px;
 }
-article p{
+article .borda{
     border: 1px solid rgb(188, 219, 49);
+    padding: 15px;
+    margin: 4px 4px 4px 4px;
 }
 footer li{
+    flex-direction: row;
+    justify-content: flex-start;
     text-align: center;
     list-style: none;
+}
+.button{
+    color: black;
+    background-color: rgb(188, 219, 49);
+    padding: 8px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.button:hover{
+    color:rgb(188, 219, 49);
+    background-color: rgb(82, 82, 82);
+}
+#euw{
+    color:rgb(188, 219, 49);
+}
+#saudaçãofinal{
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.2em;
 }
