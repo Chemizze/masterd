@@ -38,7 +38,7 @@
         </aside>
         </section>
         <section id="skills">
-            <h3>As minhas skills</h3>
+            <h3 id="minhasskills">As minhas skills</h3>
             <div id="front-end">
                 <h4>Desenvolvimento Front-end</h4>
                 <p>Domino HTML, CSS, JavaScript para criar interfaces respônsivas e interativas</p>
@@ -56,8 +56,8 @@
             </div>
         </section>
         <section id="projetos">
-            <h3>Os meus Projetos</h3>
-            <ol>
+            <h3 id="omp">Os meus Projetos</h3>
+            <ol id="tipprojet">
                 <li>Web Developer Sénior: <br> Lidero Projetos complexos para clientes de alto perfil.
                 </li>
                 <li>Freelancer de Desenvolvimento Web: <br>Trabalhei com diversos clientes, desde pequenas empresas até startuops, entregando soluções personalizadas.</li>
@@ -66,62 +66,83 @@
             <a href="projeto.hmtl" target="_blank" class="cta">Conheça o meu trabalho</a>
         </section>
         <section id="serviços">
-            <h3>Serviços oferecidos</h3>
-            <h4>Desenvolvimento Web</h4>
-            <p>Construo sites e aplicações web responsivas e de alto desmpenho</p>
-            <h4>Design de UXUI</h4>
-            <p>Crio designs intuitivos e experiências de usuário envolventes</p>
-            <h4>Integração back-end</h4>
-            <p>Implemento soluções back-end e seguras</p>
-            <img src="../imagens/exp_prof.png" alt="Serviços" height="350px" width="300px">
+            <h3 id="oferecidos">Serviços oferecidos</h3>
+            <div id="web">
+                <h4>Desenvolvimento Web</h4>
+                <p>Construo sites e aplicações web responsivas e de alto desmpenho</p>
+            </div>
+            <div id="mobile">
+                <h4>Desenvolvimento mobile</h4>
+                <p>Desenvolvo aplicaçoes móveis nativas e multiplataformas</p>
+            </div>
+            <div id="design">
+                <h4>Design de UXUI</h4>
+                <p>Crio designs intuitivos e experiências de usuário envolventes</p>
+            </div>
+                <div id="back">
+                <h4>Integração back-end</h4>
+                <p>Implemento soluções back-end e seguras</p>
+            </div>
         </section>
         <section id="clientes">
+            <img src="../imagens/exp_prof.png" alt="Serviços" height="350px" width="300px">
                 <h3>O que dizem os meus clientes</h3>
-                <ul>
+                <ul id="opinião">
                     <li>Satisfação e resultados memoráveis.</li>
                     <li>Eficiencia e comunicação</li>
                     <li>Dedicação e inovação</li>
                 </ul> 
         </section>
         <section id="contacto">
-                <h3>Vamos conversar</h3>
-                <h3 >1</h3>
-                <h5>Envie uma mensagem</h5>
-                <p>Entre em contato através do meu email ou pelas redes sociais</p>
-                <h3 >2</h3>
-                <h5 >Agenda reuniões</h5>
-                <p>Marque uma videochamada para discutirmos seu projeto</p>
-                <h3 >3</h3>
-                <h5>Receba uma proposta</h5>
-                <p>Farei uma análise do seu projeto e enviarei uma proposta personalizada</p>
+                <h2>Vamos conversar</h3>
+                <div id="mensagem">
+                    <h3>1</h3>
+                    <h5>Envie uma mensagem</h5>
+                    <p>Entre em contato através do meu email ou pelas redes sociais</p>
+                </div>
+                <div id="agenda">
+                    <h3 >2</h3>
+                    <h5 >Agenda reuniões</h5>
+                    <p>Marque uma videochamada para discutirmos seu projeto</p>
+                </div>
+                <div id="proposta">
+                    <h3 >3</h3>
+                    <h5>Receba uma proposta</h5>
+                    <p>Farei uma análise do seu projeto e enviarei uma proposta personalizada</p>
+                </div>
                 <a href="contacto.html" target="_blank" class="cta">Contacte-nos</a>
         </section>
-        <article id="saudação final" id="last">
-            <h3>Obrigada por me visitar!</h3>
-            <h4>Pronto para começar?</h4>
-            <p class="borda">Vamos transformar a sua idea em realidade. Entre em <a href="contacto.html">contacto</a> agora mesmo</p>
-            <h4>Explore o meu portfolio</h4>
-            <p class="borda">Confire <a href="projeto.html">exemplos</a> do meu trabalho e veja como posso ajudá-lo</p>
-            <h4>Conect-se comigo</h4>
-            <p class="borda"><a href="contacto.html">Siga-me</a> nas redes sociais para ficar por dentro das novidades</p>
+        <article id="last">
+            <h1>Obrigada por me visitar!</h3>
+            <div id="começo">
+                <h4>Pronto para começar?</h4>
+                <p >Vamos transformar a sua idea em realidade. Entre em <a href="contacto.html">contacto</a> agora mesmo</p>
+            </div>
+            <div id="explore">
+                <h4>Explore o meu portfolio</h4>
+                <p >Confire <a href="projeto.html">exemplos</a> do meu trabalho e veja como posso ajudá-lo</p>
+            </div>
+            <div id="comigo">
+                <h4>Conect-se comigo</h4>
+                <p"><a href="contacto.html">Siga-me</a> nas redes sociais para ficar por dentro das novidades</p>
+            </div>
         </article>
     </main>
         <footer id="rodapé">
-            <h1>Jane Doe Portfolio</h1>
-            <nav>
+            <img src="../imagens/logo.png" alt="Logo do site" width="100px">
+            <nav id="fim">
                 <ul>
-                    <li><a href="sobre.html" target="_blank">Sobre</a></li>
-                    <li><a href="projeto.html" target="_blank">Projetos</a></li>
                     <li><a href="serviços.html" target="_blank">Serviços</a></li>
                     <li><a href="contacto.html" target="_blank">Serviços</a></li>
                     <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
                     <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
                 </ul> 
             </nav>
-            <img src="../imagens/logo.png" alt="Logo do site" width="100px">
-            <p>&copy; 2024 Jane Doe</p>
-            <a href="privacidade.html" target="_blank">Politica de privacidade</a>
-            <a href="termo.html" target="_blank">Termos de uso</a>
+            <div id="copy">
+                <p id="jane">&copy; 2024 Jane Doe</p>
+                <a href="privacidade.html" target="_blank">Politica de privacidade</a>
+                <a href="termo.html" target="_blank">Termos de uso</a>
+            </div>
     </footer>
 </body>
 </html>
