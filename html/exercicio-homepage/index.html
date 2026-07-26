@@ -8,15 +8,13 @@
 </head>
 <body>
     <header>
-        <img src="imagem/logo.png" alt="logo da empresa" id="logo">
+        <img src="imagem/logo.png" alt="logo da empresa" id="logo"id="inicio">
         <nav id="link">
-            <ul>
-                <li class="links"><a href="index.html">Inicio</a></li>
-                <li class="links"><a href="sobre.html">Sobre Nós</a></li>
-                <li class="links"><a href="Instalações.html">Nossas Instalações</a></li>
-                <li class="links"><a href="administração.html">Administração de Condominios</a></li>
-                <li class="links"><a href="serviços.html">Serviços</a></li>
-                <li class="links"><a href="pedidos.html">Pedidos</a></li>
+            <ul id="link">
+                <li class="links"><a href="#inicio">Inicio</a></li>
+                <li class="links"><a href="#ser">Sobre Nós</a></li>
+                <li class="links"><a href="#serviços">Serviços</a></li>
+                <li class="links"><a href="#form">Pedidos</a></li>
             </ul>
         </nav>
     </header>
@@ -31,7 +29,7 @@
             <h2>Disponibilidade 24 Horas</h2>
             <p>Equipa técnica disponivel 24h para emergências no seu condominio</p>
         </section>
-        <section>
+        <section id="ser">
             <a href="sobre.html" class="contact">Quem Somos</a>
             <h1>Uma combinação de Profissionalismo, Experiencia e Dedicação</h1>
             <h2>Missão</h2>
@@ -39,12 +37,12 @@
             <h2>Visão</h2>
             <p>Ser reconhecida como uma referência na gentão de condominios, destacando-se pela qualidade, proximidade no atendimento e soluções atuais.</p>
             <img src="imagem/aperto-de-mão.jpg" alt="Aperto de mãos" width="400px">
-            <a href="instalações.html" id="extraclass=" class="extra">Nossas Instalações</a>
+            <a href="instalações.html" id="extraclass=" class="contact">Nossas Instalações</a>
         </section>
-        <aside>
-            <a href="contacto.html" class="contact">Contacte-nos</a>
+        <aside id="serviços">
+            <a href="contacto.html" class="contacts">Contacte-nos</a>
             <h2>O que fazemos:</h2>
-            <ul>
+            <ul id="fazemos">
                 <li>Gestão administrativa e financeira do condominio;</li>
                 <li>Organização e condução de assembleias;</li>
                 <li>Cobranças das quotas de cada condominio;</li>
@@ -78,29 +76,29 @@
                 </tbody>
             </table>
         </aside>
-        <article>
+        <article id="form">
             <h3>Se preferir, use o formulário abaixo para entrarmos em contacto, para um possivel orçamento</h3>
             <form action="/submit.php">
                 <label for="nome"> Nome: <br>
-                    <input type="text" name="Nome" id="nome" required>
+                    <input type="text" name="Nome" id="nome" required placeholder="Diego Mota" class="campos">
                 </label><br>
                 <label for="email">Email: <br>
-                    <input type="email" name="Email" id="email" placeholder="exemplo@exemplo.com" required>
+                    <input type="email" name="Email" id="email" placeholder="exemplo@exemplo.com" required class="campos">
                 </label><br>
                 <label for="telefone">Número de Telefone: <br>
-                    <input type="tel" name="Telefone" id="telefone" placeholder="*** *** ***" required>
+                    <input type="tel" name="Telefone" id="telefone" placeholder="*** *** ***" required class="campos">
                 </label><br>
                 <label for="endereço">Endereço: <br>
-                    <input type="text" name="Endereço" id="endereço" placeholder="Rua, Avenida..." required>
+                    <input type="text" name="Endereço" id="endereço" placeholder="Rua, Avenida..." required class="campos">
                 </label><br>
                 <label for="mensagem">Mensagem: <br>
-                    <textarea name="mensagem" id="mensagem" maxlength="80px" ></textarea>
+                    <textarea name="mensagem" id="mensagem" maxlength="80px" ></textarea class="campos">
                 </label><br>
                 <input type="submit" value="Submeta" id="submeta">
             </form>
         </article>
     </main>
-    <footer>
+    <footer id="rodapé">
         <p>Administração de condominios com transparência, aproximidade e excelência.</p>
         <h3>Segue-nos nas nossas redes sociais</h3>
         <nav>
