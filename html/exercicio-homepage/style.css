@@ -42,7 +42,7 @@ img#familia{
     display: block;
     margin: 0 auto;
 }
-aside, section:nth-child(odd){
+section:nth-child(odd){
     background-color: #0B2640;
     padding: 8px;
     color: white;
