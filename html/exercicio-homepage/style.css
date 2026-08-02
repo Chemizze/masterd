@@ -117,8 +117,9 @@ table{
     border-collapse: collapse;
     color: black;
 }
-thead{
+th {
     background-color: rgb(194, 192, 192);
+    border: 1px solid black;
 }
 tr, td{
     padding: 5px;
@@ -126,7 +127,7 @@ tr, td{
     background-color: white;
 }
 /* rodapé*/
-#rodapé{
+#rodape{
     background-color: #0B2640;
     padding: 5px;
     color: white;
@@ -139,7 +140,19 @@ tr, td{
     text-decoration: none;
     border-radius: 5%;
 }
+.extra{
+    list-style: none;
+    white-space: nowrap;
+    color: white;
+    border: 2px solid white;
+    padding: 3px;
+    margin: 3px;
+}
 /* extra */
 .links:hover{
     background-color: rgb(1, 1, 191);
+}
+.extra:hover{
+    background-color: white;
+    color: #0B2640;
 }
