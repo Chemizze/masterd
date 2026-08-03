@@ -32,41 +32,39 @@ img#logo{
     border-radius: 10px;
     padding: 2px;    
 }
-
-/* main */
 a{
     color: blue;
 }
-img#familia{
-    width: 90%;
-    display: block;
-    margin: 0 auto;
-}
-section:nth-child(odd){
-    background-color: #0B2640;
-    padding: 8px;
-    color: white;
-    border-radius: 2%;
-}
 .contacts{
     text-decoration: none;
-    color: rgb(1, 160, 150);
+    color: white;
     border-radius: 20%;
     padding: 4px;
     border: 1px solid white;
     text-align: center;
 }
-h1{
-    text-align: center;
+/* tabela */
+#fazemos{
+    list-style: lower-roman;
+    padding: 7px;
+    margin: 10px;
+
+}
+table{
+    border-collapse: collapse;
+    color: black;
+}
+th {
+    background-color: rgb(194, 192, 192);
+    border: 1px solid black;
+}
+tr, td{
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
 }
 
-/*rodape*/
-#rodape{
-    background-color: #0b264064; 
-    padding: 5px;
-    color: black;
-    margin: 1px;
-}
+/* rodapé*/
 #rodape{
     background-color: #0b264064; 
     padding: 5px;
@@ -89,4 +87,10 @@ h1{
 .extra:hover{
     background-color: #0B2640;
     color: white;
+}
+aside:nth-child(odd){
+    background-color: #0B2640;
+    padding: 8px;
+    color: white;
+    border-radius: 2%;
 }
