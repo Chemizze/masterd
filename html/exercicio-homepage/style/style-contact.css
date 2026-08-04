@@ -32,17 +32,36 @@ img#logo{
     border-radius: 10px;
     padding: 2px;    
 }
+/*main*/
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*contactos*/
+#contactos{
+    padding: 15px;
+    width: 90vw;
+}
+h1{
+    font-size: 3em;
+    margin: 0px;
+}
+li{
+    list-style: none;
+    padding: 9px;
+}
 
 /* form */
 form, label{
     padding: 2px;
     margin: 2px;
-    background-color: grey;
 }
 input.campos{
     border: 2px solid black;
     width: 93vw;
     padding: 5px;
+    background-color: rgb(213, 210, 210);
 }
 #mensagem{
     resize: none;
@@ -50,16 +69,19 @@ input.campos{
     height: 70px;
     border: 2px solid black;
     width: 93vw;
+    background-color: rgb(213, 210, 210);
 }
 #submeta{
     border: 2px solid black;
-    width: 10vw;
+    width: 20vw;
     text-align: center;
     padding: 4px;
     margin: 5px;
+    color: white;
+    background-color: #233e58;
 }
 #submeta:hover{
-    background-color: #0B2640;
+    background-color: #0d3355;
     color: white;
 }
 /*rodape*/
@@ -91,4 +113,8 @@ article:nth-child(odd){
     padding: 8px;
     color: white;
     border-radius: 2%;
+}
+.material-symbols-outlined{
+    background-color: rgb(122, 122, 221);
+    padding: 7px;
 }

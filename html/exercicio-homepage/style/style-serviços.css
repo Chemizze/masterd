@@ -43,16 +43,63 @@ a{
     border: 1px solid white;
     text-align: center;
 }
-/* tabela */
-#fazemos{
-    list-style: lower-roman;
-    padding: 7px;
-    margin: 10px;
-
+/*fazemos*/
+#serviços{
+    padding: 3px;
+    display: grid;
+    grid-template-columns: repeat(3,1.7fr) ;
+    grid-template-rows: 90px repeat(2, 0.7fr);
+    gap: 5px;
+    color: rgb(240, 240, 240);
 }
+h1{
+    font-size: 2.5em;
+    color: #0B2640;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+h2{
+    font-size: 1.3em;
+}
+p{
+    text-align: inherit;
+}
+div{
+    background-color: #0B2640;
+    border-radius: 25px;
+    padding: 7px;
+}
+#legal{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+#conflitos{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+#piquete{
+    grid-row: 2 / 3;
+    grid-column: 3 / -1;
+}
+#jardim{
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
+#limpeza{
+    grid-row: 3 / 4;
+    grid-column: 3 / -1;
+}
+#gestao{
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+}
+/* tabela */
+
 table{
     border-collapse: collapse;
     color: black;
+    width: 98vw;
 }
 th {
     background-color: rgb(194, 192, 192);
@@ -70,6 +117,7 @@ tr, td{
     padding: 5px;
     color: black;
     margin: 1px;
+    width: 98vw;
 }
 .extra{
     list-style: none;
@@ -88,9 +136,8 @@ tr, td{
     background-color: #0B2640;
     color: white;
 }
-aside:nth-child(odd){
-    background-color: #0B2640;
-    padding: 8px;
-    color: white;
-    border-radius: 2%;
+.material-symbols-outlined{
+    background-color: rgb(122, 122, 221);
+    padding: 7px;
+    margin: 4px;
 }
